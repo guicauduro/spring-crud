@@ -6,6 +6,6 @@
 - `docker container run -d --name=pg -p 5432:5432 -e POSTGRES_PASSWORD=1234 -e PGDATA=/pgdata -v /pgdata:/pgdata postgres`
 
 ## Configurando Intellij
-- Configurar o IntellijIDEA para utilizar java 17:
-Em `File > Project Structure > SDK > Baixe o SDK 17`
-Em `File > Settings > Graddle > Gradle JVM > Use JDK`
+### Configurar o IntellijIDEA para utilizar java 17:
+- Em `File > Project Structure > SDK > Baixe o SDK 17`
+- Em `File > Settings > Graddle > Gradle JVM > Use JDK`
