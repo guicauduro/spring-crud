@@ -3,7 +3,8 @@
 
 - Instalar o docjer no linux utilizando o seguinte [link](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-pt);
 - Iniciar um container do postgres com o comando: 
-- `docker container run -d --name=pg -p 5432:5432 -e POSTGRES_PASSWORD=1234 -e PGDATA=/pgdata -v /pgdata:/pgdata postgres`
+`docker container run -d --name=pg -p 5432:5432 -e POSTGRES_PASSWORD=1234 -e PGDATA=/pgdata -v /pgdata:/pgdata postgres`
+- Criar o banco chamado `spring-crud`
 
 ## Configurando Intellij
 ### Configurar o IntellijIDEA para utilizar java 17:
